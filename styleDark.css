@@ -1,0 +1,97 @@
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: noraml;
+    font-size: x-large;
+    margin: 0px;
+    background-color: #212121;
+}
+
+header {
+    color: #000;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    height: 240px;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img {
+    margin-top: 20px;
+    width: 170px;
+    height: 200px;
+    border-radius: 50px;
+    border: #ffffff;
+}
+
+#flex-box1, #flex-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 200px;
+    color: #fff;
+}
+
+button {
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-style: solid;
+    border: #b7b7b7;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #212121;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8686;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-style: solid;
+    border: #b4e8ff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#FB {
+    color: #000;
+}
+
+.switchers {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#moon {
+    display: none;
+}

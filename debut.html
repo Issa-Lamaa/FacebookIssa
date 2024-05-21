@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<title>Facebook</title>
+		<meta charset="utf-8">
+		<link id="ss" rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<!-- Voici les balises que vous devrez utiliser pour mettre en forme la mini biographie qui vous a été attribuée :
+			
+		<h1>Pour écrire un titre important</h1>
+		<p>Pour rédiger les deux paragraphes</p>
+		<h2>Pour écrire un intertitre</h2>
+		<br>Pour effectuer un retour à la ligne. Attention, il s'agit d'une balise orpheline : inutile de la fermer.
+		<strong>Pour mettre en évidence un ensemble de caractères. Ceux-ci apparaîtront en "gras"</strong>
+		<em>Pour mettre en "italique" un ensemble de caractères.</em>
+
+		Pour insérer dans votre page un lien absolu, qui pointe vers une page Web distante, utilisez la balise <a> comme dans l'exemple suivant :		
+		<p>Pour en savoir plus, cliquez sur <a href="http://lemonde.fr" title="Cliquez ici pour aller lire Le Monde en ligne" target="_blank">le site Web du journal Le Monde</a>.</p>
+		
+		Ci-dessous, entre les balises BODY, voici le texte brut à modifier en fonction du cahier des charges suivant :
+		
+		Un titre important
+		Un intertitre
+		Deux paragraphes, avec dans chacun d'eux un retour à la ligne
+		Des caractères à mettre en évidence, d'autres en italique
+		Trois liens absolus de votre choix -->
+		
+			
+	<body>
+		<header>
+			<div id="flex-container">
+				<h1 id="FB">Facebook</h1>
+				<h2>Marc Zuckerberg</h2>
+				<div>
+					<img id="img" src=images/mark1.avif>
+				</div>
+				<button onclick="allerAuDebut()" id="b1">
+					L'histoire du début
+				</button>
+				<button onclick="allerALaCroissance()" id="b2">
+					La croissance
+				</button>
+				<img onclick="changeCSS()" id="moon" class="switchers" src="images/moon(1).png">
+				<img onclick="changeCSS()" id="sun" class="switchers" src="images/sun(1).png">
+			</div>
+		</header>
+		<h1>Le Debut</h1>
+		<div id="flex-box1">
+			<p>
+			Étudiant à <em>Harvard</em>, Mark Zuckerberg crée <strong>The Facebook</strong> en janvier 2004, en adaptant pour le Web le modèle des trombinoscopes 
+			universitaires. D’abord réservé à quelques universités, puis aux employés de grandes sociétés (Microsoft, Apple, etc.), le site, 
+			désormais baptisé Facebook depuis 2005, s’ouvre à tout internaute<br> de plus de 13 ans en septembre 2006. Cette même année, <a href="https://fr.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a>, 
+			pour concurrencer le nouvel arrivant <a href="https://fr.wikipedia.org/wiki/Facebook" target="_blank">Twitter</a>, intègre le newsfeed, espace aujourd’hui fondamental qui affiche des publications, 
+			des commentaires, des pages et des actualités.<br> 
+			</p>
+		</div>
+		<footer>
+			<h4>Issa Lamaa Copyright 2024</h4>
+		</footer>
+	</body>
+	<script src="app.js"></script>
+</html>
